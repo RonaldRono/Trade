@@ -68,68 +68,51 @@ An advanced, full-stack trading application built with the exact architectural s
 
 ## 🏃‍♂️ How to Run Locally
 
-### Start Both Frontend and Backend Simultaneously
-```bash
-# Navigate to the project directory
-cd C:\projects\Treads
+The project is split into two independent apps:
 
-# Start both Express Backend (Port 5000) and Vite Frontend (Port 5174)
+- `frontend/` — React + Vite client (port 5174). Requests to `/api` are proxied to the backend in dev.
+- `backend/` — Express API (port 5000, override with `PORT`).
+
+### First-time setup
+```bash
+npm install            # root tooling (concurrently)
+npm run install:all    # installs backend/ and frontend/ dependencies
+```
+
+### Start both
+```bash
 npm run dev
 ```
 
-### Alternatively, Run Individually
-- **Frontend only**: `npm run client` (Available at http://localhost:5174)
-- **Backend only**: `npm run server` (Available at http://localhost:5000)
+### Run individually
+- **Frontend only**: `npm run dev:frontend` (or `cd frontend && npm run dev`) → http://localhost:5174
+- **Backend only**: `npm run dev:backend` (or `cd backend && npm run dev`) → http://localhost:5000
+- **Production build**: `npm run build` (outputs `frontend/dist`)
 
 ---
 
 ## 📁 Project Directory Structure
 
 ```
-C:\projects\Treads\
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-├── postcss.config.js
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-├── index.html
+Trade/
+├── package.json          # root runner scripts only
 ├── README.md
 ├── backend/
 │   ├── package.json
 │   └── index.js
-└── src/
-    ├── App.tsx
-    ├── main.tsx
-    ├── index.css
-    ├── vite-env.d.ts
-    ├── components/
-    │   ├── brand-logo.tsx
-    │   ├── navbar.tsx
-    │   ├── footer.tsx
-    │   ├── theme-provider.tsx
-    │   ├── theme-toggle.tsx
-    │   ├── telegram-button.tsx
-    │   ├── checkout-modal.tsx
-    │   └── ui/
-    │       ├── button.tsx
-    │       ├── dialog.tsx
-    │       └── dropdown-menu.tsx
-    ├── lib/
-    │   ├── utils.ts
-    │   └── currency.ts
-    └── pages/
-        ├── home.tsx
-        ├── terminal.tsx
-        ├── indicators.tsx
-        ├── signals.tsx
-        ├── challenge.tsx
-        ├── calculator.tsx
-        ├── account.tsx
-        └── contact.tsx
+└── frontend/
+    ├── package.json
+    ├── index.html
+    ├── vite.config.ts
+    ├── tailwind.config.js
+    ├── postcss.config.js
+    ├── tsconfig*.json
+    ├── vercel.json
+    └── src/
+        ├── App.tsx, main.tsx, index.css
+        ├── components/   (navbar, footer, checkout-modal, ui/…)
+        ├── lib/          (utils, currency, confetti)
+        └── pages/        (home, terminal, indicators, signals, challenge, calculator, account, contact)
 ```
 
----
 
-© 2026 Treads Algo & MT5 Systems. All rights reserved.
