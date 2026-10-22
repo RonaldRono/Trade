@@ -1,0 +1,230 @@
+{
+    "slug":  "privacy-policy",
+    "title":  "Privacy Policy | Treads Algo",
+    "description":  "How Treads Algo collects, uses, stores and protects the information you share with us, including MT5 credentials used for the copy-trading bridge.",
+    "heroImage":  "/images/crypto-settlement.jpg",
+    "heroImageAlt":  "Cryptocurrency settlement over blockchain",
+    "isExtendedFooterEnabled":  false,
+    "extendedFooterHeading":  null,
+    "extendedFooterText":  null,
+    "extendedFooterImage":  null,
+    "extendedFooterCta":  null,
+    "sections":  [
+                     {
+                         "__typename":  "RichTextPageContent",
+                         "id":  "privacy-body",
+                         "body":  {
+                                      "json":  {
+                                                   "nodeType":  "document",
+                                                   "content":  [
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "This policy explains what information Treads Algo collects when you browse this site, buy a licence, join the VIP signals channel or connect an MT5 account to the copy-trading bridge, and how that information is handled."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "1. Information we collect"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "unordered-list",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "Order data: the product selected, the price paid, the settlement coin, the transaction reference and the timestamp of blockchain confirmation."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       },
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "Account data: your name, email address, broker and server selection, MT5 login number and the risk allocation profile you choose."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       },
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "Technical data: IP address, device and browser type, referring page and pages viewed, captured in server logs for security and analytics."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       },
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "Communications: the content of support requests and messages sent to the VIP desk."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "2. MT5 credentials"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "When you enrol in the copy-trading challenge you provide MT5 credentials. They are encrypted with AES-256 and loaded only into the secure copy-trading node for the duration of the three-day challenge. After the challenge window closes the node removes the stored credentials. We recommend using a dedicated MT5 account and the investor password where the broker allows trading permissions to be granted separately."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "3. How we use information"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "We use your information to deliver licences and files, to activate your hardware binding, to run the copy-trading bridge, to provide VIP desk support, to detect fraud and abuse, and to meet our legal and tax obligations. We do not sell personal data and we do not share it with brokers, payment processors or advertising networks."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "4. Payments"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "Payments are settled directly over cryptocurrency networks. We record the transaction reference, amount and confirmation count so we can prove delivery. We never receive or store your exchange account credentials, and card or bank details are not collected on this site."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "5. Retention"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "Order records and licence bindings are retained for as long as the licence is active plus seven years to meet accounting and tax requirements. Bridge credentials are retained only for the duration of the challenge. Support correspondence is retained for two years."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "6. Your rights"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "You may request a copy of the personal data we hold about you, ask us to correct it, or ask us to erase it where we are not required to retain it. Write to support@treads-algo.com and we will respond within 30 days."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "7. Cookies"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "This site stores only the preferences needed to keep the client terminal and the checkout modal working between page loads. We do not use advertising cookies or cross-site tracking."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "8. Security and contact"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "Data in transit is encrypted with TLS. Licence activation uses hardware-bound keys to prevent unauthorised use. For any privacy question, contact support@treads-algo.com."
+                                                                                       }
+                                                                                   ]
+                                                                   }
+                                                               ]
+                                               }
+                                  }
+                     }
+                 ]
+}

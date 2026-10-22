@@ -1,0 +1,109 @@
+﻿{
+    "slug":  "terminal",
+    "title":  "Live MT5 Spike Detection Terminal | Treads Algo",
+    "description":  "Real-time tick-by-tick mathematical cluster simulation. Observe how indicators execute before spikes print on Boom, Crash and synthetic indices.",
+    "heroImage":  "/images/hero-terminal.jpg",
+    "heroImageAlt":  "Algorithmic trading charts on a MetaTrader 5 terminal",
+    "isExtendedFooterEnabled":  true,
+    "extendedFooterHeading":  "Install the same engine on your own MT5",
+    "extendedFooterText":  "Every entry arrow you see here runs on the same Prime Spike v3.2 AI cluster accumulator we ship as a licensed indicator.",
+    "extendedFooterImage":  {
+                                "src":  "/images/hero-terminal.jpg",
+                                "width":  2880,
+                                "height":  1620,
+                                "description":  "MetaTrader 5 terminal running spike detectors"
+                            },
+    "extendedFooterCta":  {
+                              "label":  "Browse Spike Detectors",
+                              "url":  "/indicators"
+                          },
+    "sections":  [
+                     {
+                         "__typename":  "TerminalModule",
+                         "id":  "live-terminal",
+                         "assets":  [
+                                        {
+                                            "id":  "boom-1000",
+                                            "label":  "BOOM 1000",
+                                            "mode":  "Spike UP",
+                                            "base":  14210.4,
+                                            "drift":  0.9,
+                                            "volatility":  42
+                                        },
+                                        {
+                                            "id":  "crash-1000",
+                                            "label":  "CRASH 1000",
+                                            "mode":  "Spike DOWN",
+                                            "base":  8912.3,
+                                            "drift":  -0.9,
+                                            "volatility":  38
+                                        },
+                                        {
+                                            "id":  "boom-500",
+                                            "label":  "BOOM 500",
+                                            "mode":  "High Frequency",
+                                            "base":  4118.0,
+                                            "drift":  0.8,
+                                            "volatility":  26
+                                        },
+                                        {
+                                            "id":  "crash-500",
+                                            "label":  "CRASH 500",
+                                            "mode":  "Aggressive",
+                                            "base":  3845.2,
+                                            "drift":  -0.8,
+                                            "volatility":  24
+                                        },
+                                        {
+                                            "id":  "volatility-75",
+                                            "label":  "VOLATILITY 75",
+                                            "mode":  "Trend",
+                                            "base":  492104.2,
+                                            "drift":  0.4,
+                                            "volatility":  620
+                                        }
+                                    ]
+                     },
+                     {
+                         "__typename":  "FeatureTrio",
+                         "id":  "terminal-features",
+                         "eyebrow":  "What you are watching",
+                         "heading":  "Three engines running on every tick",
+                         "text":  "The terminal draws the same overlays our licensed indicators place on a live MT5 chart.",
+                         "features":  [
+                                          {
+                                              "kicker":  "M1 / M5 Clusters",
+                                              "title":  "Pre-spike tick accumulation",
+                                              "text":  "Synthetic indices follow deterministic tick accumulation curves. Our algorithm calculates mathematical exhaustion and triggers sniper entry arrows.",
+                                              "image":  "/images/trading-floor.jpg",
+                                              "imageAlt":  "Institutional MT5 indicators"
+                                          },
+                                          {
+                                              "kicker":  "0.08 ms Ping",
+                                              "title":  "Direct MT5 bridge execution",
+                                              "text":  "Fires instant audio pings and push notifications directly to your phone or MT5 terminal so you never miss an explosive spike.",
+                                              "image":  "/images/vps-nodes.jpg",
+                                              "imageAlt":  "Low latency VPS nodes"
+                                          },
+                                          {
+                                              "kicker":  "1:4 Risk Reward",
+                                              "title":  "Tight stops \u0026 maximum upside",
+                                              "text":  "Strict 8 to 14 tick stop loss protection ensures minimal risk while capturing 80 to 200+ point breakout surges on every signal.",
+                                              "image":  "/images/market-chart.jpg",
+                                              "imageAlt":  "Verified win rate"
+                                          }
+                                      ]
+                     },
+                     {
+                         "__typename":  "Cta",
+                         "id":  "terminal-cta",
+                         "heading":  "Install Prime Spike v3.2 AI on your MT5",
+                         "text":  "Compiled .ex5 file, pre-calibrated M1 and M5 presets, installation manual and a hardware-bound licence key delivered instantly on payment.",
+                         "backgroundImage":  "/images/vps-nodes.jpg",
+                         "cta":  {
+                                     "label":  "Get Access â€” $49.00",
+                                     "url":  "/indicators"
+                                 }
+                     }
+                 ]
+}

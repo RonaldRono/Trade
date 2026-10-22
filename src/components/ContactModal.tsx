@@ -1,0 +1,172 @@
+import { useEffect, useState } from 'react'
+
+interface ContactModalProps {
+  isOpen: boolean
+  onClose: () => void
+}
+
+const SUBJECTS = [
+  'Indicator Installation Support',
+  '100k Challenge Bridge Assistance',
+  'License Key HWID Reset',
+  'Custom EA or Algorithm Request',
+  'Crypto Payment Verification',
+]
+
+export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [subject, setSubject] = useState(SUBJECTS[0])
+  const [message, setMessage] = useState('')
+  const [sent, setSent] = useState(false)
+
+  useEffect(() => {
+    if (!isOpen) return
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') onClose()
+    }
+
+    document.addEventListener('keydown', onKeyDown)
+    document.body.style.overflow = 'hidden'
+
+    return () => {
+      document.removeEventListener('keydown', onKeyDown)
+      document.body.style.overflow = ''
+    }
+  }, [isOpen, onClose])
+
+  if (!isOpen) return null
+
+  const reset = () => {
+    setName('')
+    setEmail('')
+    setSubject(SUBJECTS[0])
+    setMessage('')
+    setSent(false)
+  }
+
+  return (
+    <div
+      className="modal-backdrop"
+      role="presentation"
+      onClick={(event) => {
+        if (event.target === event.currentTarget) onClose()
+      }}
+    >
+      <div className="modal" role="dialog" aria-modal="true" aria-label="Contact the VIP trading desk">
+        <button type="button" className="modal__close" aria-label="Close contact form" onClick={onClose}>
+          ✕
+        </button>
+
+        <span className="eyebrow">24/7 Dedicated VIP Trading Support</span>
+        <h2 className="modal__title">Send a priority support dispatch</h2>
+        <p className="modal__text">
+          Tell us what you need. A senior trading systems engineer will pick it up, and the average
+          response time on the desk is under 15 minutes.
+        </p>
+
+        {sent ? (
+          <div className="support-form__success" style={{ marginTop: '2.4rem' }}>
+            <h4>Message dispatched!</h4>
+            <p>
+              Thank you, {name}. Your inquiry has been routed to our senior trading systems
+              engineer. Average response time is under 15 minutes.
+            </p>
+            <div className="modal__actions">
+              <button
+                type="button"
+                className="button button--ghost"
+                onClick={() => {
+                  reset()
+                  onClose()
+                }}
+              >
+                Close
+              </button>
+              <button type="button" className="button" onClick={reset}>
+                Send Another Message
+              </button>
+            </div>
+          </div>
+        ) : (
+          <form
+            className="support-form"
+            style={{ marginTop: '2.4rem' }}
+            onSubmit={(event) => {
+              event.preventDefault()
+              setSent(true)
+            }}
+          >
+            <div className="support-form__row">
+              <div className="custom-input__field custom-input__field--is-input">
+                <div className="custom-input__label-input-container">
+                  <label className="custom-input__label">
+                    <span className="custom-input__label-text">Your Full Name*</span>
+                    <input
+                      className="custom-input__input"
+                      type="text"
+                      required
+                      value={name}
+                      onChange={(event) => setName(event.target.value)}
+                    />
+                  </label>
+                </div>
+              </div>
+
+              <div className="custom-input__field custom-input__field--is-input">
+                <div className="custom-input__label-input-container">
+                  <label className="custom-input__label">
+                    <span className="custom-input__label-text">Email Address*</span>
+                    <input
+                      className="custom-input__input"
+                      type="email"
+                      required
+                      value={email}
+                      onChange={(event) => setEmail(event.target.value)}
+                    />
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <label className="custom-input__label-text" style={{ position: 'static', transform: 'none' }}>
+              Inquiry Subject
+            </label>
+            <select className="select-field" value={subject} onChange={(event) => setSubject(event.target.value)}>
+              {SUBJECTS.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+
+            <div className="custom-input__field custom-input__field--is-textarea">
+              <div className="custom-input__label-input-container">
+                <label className="custom-input__label">
+                  <span className="custom-input__label-text">Detailed Message*</span>
+                  <textarea
+                    className="custom-input__input"
+                    required
+                    value={message}
+                    onChange={(event) => setMessage(event.target.value)}
+                    placeholder="Describe your question, broker details, or MT5 error codes..."
+                  />
+                </label>
+              </div>
+            </div>
+
+            <div className="modal__actions">
+              <button type="submit" className="button">
+                Submit to 24/7 Desk
+              </button>
+              <button type="button" className="button button--ghost" onClick={onClose}>
+                Cancel
+              </button>
+            </div>
+          </form>
+        )}
+      </div>
+    </div>
+  )
+}

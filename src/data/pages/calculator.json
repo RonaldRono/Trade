@@ -1,0 +1,120 @@
+﻿{
+    "slug":  "calculator",
+    "title":  "Boom \u0026 Crash Profit Calculator | Treads Algo",
+    "description":  "Calculate your exact projected returns per spike capture, evaluate risk-to-reward metrics, and size your lots like an institutional quantitative fund.",
+    "heroImage":  "/images/risk-engine.jpg",
+    "heroImageAlt":  "Quantitative risk engine analytics",
+    "isExtendedFooterEnabled":  true,
+    "extendedFooterHeading":  "Golden rule: never risk over 3% per spike signal",
+    "extendedFooterText":  "By entering with Prime Spike v3.2 AI signals, our traders consistently hit minimum 1:4 risk-reward ratios with 10 to 14 tick maximum stop-losses.",
+    "extendedFooterImage":  {
+                                "src":  "/images/risk-engine.jpg",
+                                "width":  2880,
+                                "height":  1620,
+                                "description":  "Quantitative risk engine"
+                            },
+    "extendedFooterCta":  {
+                              "label":  "Open Live Terminal",
+                              "url":  "/terminal"
+                          },
+    "sections":  [
+                     {
+                         "__typename":  "CalculatorModule",
+                         "id":  "spike-calculator",
+                         "assets":  [
+                                        {
+                                            "name":  "BOOM 1000",
+                                            "multiplier":  1.0,
+                                            "minLot":  0.2,
+                                            "typicalSpike":  120
+                                        },
+                                        {
+                                            "name":  "CRASH 1000",
+                                            "multiplier":  1.0,
+                                            "minLot":  0.2,
+                                            "typicalSpike":  110
+                                        },
+                                        {
+                                            "name":  "BOOM 500",
+                                            "multiplier":  1.2,
+                                            "minLot":  0.2,
+                                            "typicalSpike":  95
+                                        },
+                                        {
+                                            "name":  "CRASH 500",
+                                            "multiplier":  1.2,
+                                            "minLot":  0.2,
+                                            "typicalSpike":  90
+                                        },
+                                        {
+                                            "name":  "BOOM 300",
+                                            "multiplier":  1.5,
+                                            "minLot":  0.5,
+                                            "typicalSpike":  140
+                                        },
+                                        {
+                                            "name":  "CRASH 300",
+                                            "multiplier":  1.5,
+                                            "minLot":  0.5,
+                                            "typicalSpike":  135
+                                        },
+                                        {
+                                            "name":  "PAIN X (Weltrade)",
+                                            "multiplier":  1.1,
+                                            "minLot":  0.1,
+                                            "typicalSpike":  85
+                                        },
+                                        {
+                                            "name":  "VOLATILITY 75",
+                                            "multiplier":  0.8,
+                                            "minLot":  0.001,
+                                            "typicalSpike":  250
+                                        }
+                                    ]
+                     },
+                     {
+                         "__typename":  "StatGrid",
+                         "id":  "calculator-notes",
+                         "eyebrow":  "How to read the output",
+                         "heading":  "The four numbers that matter on every spike",
+                         "text":  "Most traders size by gut feel. These are the metrics we use to size every entry on the desk.",
+                         "stats":  [
+                                       {
+                                           "value":  "1 : 4",
+                                           "label":  "Minimum Risk-Reward",
+                                           "detail":  "Prime Spike entries are filtered to setups that clear a 1:4 ratio before the arrow prints.",
+                                           "tone":  "accent"
+                                       },
+                                       {
+                                           "value":  "8-14",
+                                           "label":  "Tick Stop Loss",
+                                           "detail":  "Strict 8 to 14 tick protection keeps the maximum loss per spike predictable and small.",
+                                           "tone":  "green"
+                                       },
+                                       {
+                                           "value":  "3%",
+                                           "label":  "Max Risk Per Signal",
+                                           "detail":  "Never risk over 3% of equity on a single spike signal. The desk follows the same rule.",
+                                           "tone":  "amber"
+                                       },
+                                       {
+                                           "value":  "25x",
+                                           "label":  "Margin Leverage",
+                                           "detail":  "Estimated margin is modelled at 25x, matching standard Deriv MT5 contract specifications.",
+                                           "tone":  "violet"
+                                       }
+                                   ]
+                     },
+                     {
+                         "__typename":  "Cta",
+                         "id":  "calculator-cta",
+                         "heading":  "Model it, then verify it live",
+                         "text":  "The live terminal replays the same cluster accumulation maths so you can confirm a modelled entry against a real print.",
+                         "backgroundImage":  "/images/quant-workflow.jpg",
+                         "cta":  {
+                                     "label":  "Open Live Terminal",
+                                     "url":  "/terminal"
+                                 }
+                     }
+                 ]
+}

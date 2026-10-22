@@ -1,0 +1,234 @@
+{
+    "slug":  "terms-and-conditions",
+    "title":  "Terms \u0026 Conditions | Treads Algo",
+    "description":  "The terms that govern your use of Treads Algo software, signals, the MT5 marketplace and copy-trading challenge.",
+    "heroImage":  "/images/institutional-desk.jpg",
+    "heroImageAlt":  "Institutional trading desk",
+    "isExtendedFooterEnabled":  false,
+    "extendedFooterHeading":  null,
+    "extendedFooterText":  null,
+    "extendedFooterImage":  null,
+    "extendedFooterCta":  null,
+    "sections":  [
+                     {
+                         "__typename":  "RichTextPageContent",
+                         "id":  "terms-body",
+                         "body":  {
+                                      "json":  {
+                                                   "nodeType":  "document",
+                                                   "content":  [
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "These terms govern access to the Treads Algo website, the MT5 indicator marketplace, the VIP signals channel and the copy-trading challenge. By creating an order, opening a channel membership or connecting an MT5 account to the bridge, you accept these terms in full."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "1. Definitions"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "\"Software\" means any compiled MetaTrader 5 indicator, expert advisor, preset file or utility supplied by Treads Algo. \"Signals\" means entries delivered through the private Telegram channel or the web terminal. \"The Bridge\" means the high-frequency copy-trading execution node that connects a client MT5 account to our execution cluster."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "2. Licences and device binding"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "Each purchase grants a single, non-transferable, perpetual licence for one physical device or VPS instance. Licences are bound to a hardware identifier. You may reset the binding yourself from the client terminal, but resetting, sharing or redistributing a licence with a third party is a breach of these terms and will result in revocation without refund."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "3. Payment and delivery"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "unordered-list",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "Payments are settled in cryptocurrency: USDT on TRON (TRC-20), USDT on BNB Smart Chain (BEP-20), Bitcoin, or Binance Pay."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       },
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "Delivery is automatic. Licence keys, compiled .ex5 files, .set presets and the installation manual are released as soon as the transaction is confirmed on the network."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       },
+                                                                                       {
+                                                                                           "nodeType":  "list-item",
+                                                                                           "content":  [
+                                                                                                           {
+                                                                                                               "nodeType":  "paragraph",
+                                                                                                               "content":  [
+                                                                                                                               {
+                                                                                                                                   "nodeType":  "text",
+                                                                                                                                   "value":  "All licence fees are one-time and non-refundable once delivery has been made. Exchange rates and network fees are the client\u0027s responsibility."
+                                                                                                                               }
+                                                                                                                           ]
+                                                                                                           }
+                                                                                                       ]
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "4. Copy-trading challenge"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "Challenge enrolment requires a funded Deriv or Weltrade MT5 account, its login details and trading permissions, and a starting balance of $100.00 USD. The fee of $85.00 USD covers the three-day window. Slot allocation is confirmed on a first-come basis. A hard 6% peak-to-trough drawdown guard is applied automatically and may close open positions at any time."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "5. Acceptable use"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "You may not decompile, reverse engineer, resell, redistribute or publicly stream the Software, publish or sell the Signals to third parties, probe or disrupt the Bridge or the website, or attempt to bypass hardware-binding controls."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "6. Third-party platforms"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "Deriv and Weltrade, MetaQuotes and Telegram are independent third parties. We are not affiliated with, endorsed by or responsible for the availability, execution quality, custody or terms of any broker account. Availability of synthetic indices differs by entity and by jurisdiction."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "7. Warranties and liability"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "The Software and Signals are provided on an as-is basis. To the fullest extent permitted by law, liability for trading losses, lost profits, service interruption or data loss is limited to the fees paid in the twelve months preceding the claim. Please read the Risk Disclosure in full before trading."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "8. Changes and termination"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "We may update the Software, the Signals and these terms. Material changes will be published on this page. We may suspend or terminate access immediately for breach of these terms, for non-payment, or where required by law or by a broker."
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "heading-2",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "9. Governing law"
+                                                                                       }
+                                                                                   ]
+                                                                   },
+                                                                   {
+                                                                       "nodeType":  "paragraph",
+                                                                       "content":  [
+                                                                                       {
+                                                                                           "nodeType":  "text",
+                                                                                           "value":  "These terms are governed by the laws applicable at our registered place of business, without regard to conflict of law rules. Disputes are subject to the exclusive jurisdiction of the competent courts at that location."
+                                                                                       }
+                                                                                   ]
+                                                                   }
+                                                               ]
+                                               }
+                                  }
+                     }
+                 ]
+}

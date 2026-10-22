@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" fill="none" role="img" aria-label="Treads Algo">
+  <rect x="1" y="9" width="42" height="42" rx="9" fill="#22D3EE" />
+  <path d="M25.6 17.5 15.8 32.2h6.6l-2.2 10.3 9.8-14.7h-6.6l2.2-10.3Z" fill="#07090C" />
+  <text x="58" y="30" font-family="pp-neue-machina-plain, Helvetica Neue, Arial, sans-serif" font-size="21" fill="#E9EEF6">TREADS</text>
+  <text x="58" y="46" font-family="jetbrains-mono, monospace" font-size="10" letter-spacing="2.6" fill="#22D3EE">ALGO PRO · MT5</text>
+</svg>

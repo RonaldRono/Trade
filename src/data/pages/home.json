@@ -1,0 +1,306 @@
+{
+  "slug": "home",
+  "title": "Treads Algo — MT5 Precision Spike Systems",
+  "description": "Treads Algo delivers non-repainting MT5 spike detectors, VIP real-time signals and automated copy trading for Boom, Crash and synthetic indices on Deriv and Weltrade.",
+  "isExtendedFooterEnabled": true,
+  "extendedFooterHeading": "The trading desk behind every spike",
+  "extendedFooterText": "Treads Algo pairs quantitative research engineers with low-latency VPS infrastructure across Deriv and Weltrade — and answers on the VIP desk in under 15 minutes.",
+  "extendedFooterImage": {
+    "src": "/images/global-desk.jpg",
+    "width": 2880,
+    "height": 1620,
+    "description": "Global trading support desk"
+  },
+  "extendedFooterCta": {
+    "label": "Contact VIP Desk",
+    "url": "/contact"
+  },
+  "sections": [
+    {
+      "__typename": "StatGrid",
+      "id": "trust-badges",
+      "eyebrow": "Verified Algorithmic Execution",
+      "heading": "Built for speed, mathematical certainty and zero guesswork",
+      "text": "Every number below is measured on live Deriv and Weltrade accounts, not on a backtest.",
+      "stats": [
+        {
+          "value": "95.2%",
+          "label": "Spike Accuracy",
+          "detail": "Average win rate across the Prime Spike v3.2 AI cluster accumulator on live accounts.",
+          "tone": "accent"
+        },
+        {
+          "value": "< 0.2s",
+          "label": "Tick Execution",
+          "detail": "Signals fire on the closing micro-tick, never on a repainting bar.",
+          "tone": "green"
+        },
+        {
+          "value": "Instant",
+          "label": "Automatic Delivery",
+          "detail": "Compiled .ex5 files, .set presets and license keys unlock on blockchain confirmation.",
+          "tone": "amber"
+        },
+        {
+          "value": "100%",
+          "label": "Non-Repainting",
+          "detail": "Arrows fix permanently on candle close and never shift backwards in history.",
+          "tone": "violet"
+        }
+      ]
+    },
+    {
+      "__typename": "ProductGrid",
+      "id": "featured-indicators",
+      "eyebrow": "Precision MT5 Marketplace",
+      "heading": "Battle-tested spike catchers & expert advisors",
+      "text": "Non-repainting mathematical algorithms built specifically for Boom, Crash and synthetic index mechanics. Instant automatic delivery after payment.",
+      "note": "View all 7 indicators and trading bots",
+      "products": [
+        {
+          "id": "prime-spike",
+          "name": "Prime Spike v3.2 AI",
+          "category": "Spike Detectors",
+          "price": 49.0,
+          "winRate": "95.2%",
+          "platform": "Deriv MT5",
+          "badge": "BESTSELLER",
+          "badgeTone": "accent",
+          "description": "Proprietary micro-tick accumulation detector for Boom 1000, Boom 500, Crash 1000 and Crash 500. Fires non-repainting entry signals 1 to 3 ticks before massive price explosions.",
+          "image": "/images/hero-liquidity.jpg",
+          "specs": [
+            "100% Non-Repainting Calculation Logic",
+            "Instant Audio, Push & Telegram Alerts",
+            "Tested on Live Deriv MT5 Accounts",
+            "Pre-calibrated presets (.set) for M1 & M5"
+          ],
+          "timeframe": "M1 / M5"
+        },
+        {
+          "id": "spike-radar",
+          "name": "Spike Radar Pro HUD",
+          "category": "Spike Detectors",
+          "price": 49.0,
+          "winRate": "93.8%",
+          "platform": "Deriv MT5",
+          "badge": "POPULAR",
+          "badgeTone": "green",
+          "description": "Real-time 360-degree visual spike probability radar HUD displayed directly over MT5 chart candles. Monitors volume pressure, spread gaps and exhaustion limits.",
+          "image": "/images/analytics-dashboard.jpg",
+          "specs": [
+            "Visual On-Chart Radar Gauge HUD",
+            "Multi-Timeframe Basket Scanner",
+            "Dynamic Support / Resistance Bands",
+            "Custom Sensitivity Slider (70% - 98%)"
+          ],
+          "timeframe": "M1 / M5 / M15"
+        },
+        {
+          "id": "nexus-paingain",
+          "name": "NexusPainGain Detector X",
+          "category": "Weltrade Synthetics",
+          "price": 98.35,
+          "winRate": "96.1%",
+          "platform": "Weltrade MT5",
+          "badge": "EXCLUSIVE",
+          "badgeTone": "amber",
+          "description": "Proprietary 3-filter quantitative algorithm designed strictly for Pain X and Gain X synthetics on Weltrade. Analyzes orderbook imbalances and directional liquidity sweeps.",
+          "image": "/images/risk-engine.jpg",
+          "specs": [
+            "Exclusive to Weltrade Pain X / Gain X",
+            "Triple-Filtered Volume Confluence",
+            "Integrated High-Impact News Circuit Breaker",
+            "Dedicated Weltrade Presets Included"
+          ],
+          "timeframe": "M1 / M5"
+        }
+      ]
+    },
+    {
+      "__typename": "ChallengeBanner",
+      "id": "challenge-promo",
+      "eyebrow": "October Round — $100 to $100k",
+      "heading": "Grow from $100 to $100,000 in 3 trading days",
+      "text": "Join our high-frequency copy trading network. Our master quantitative bots trade your connected MT5 account synchronously across Boom, Crash and synthetic indices.",
+      "stats": [
+        { "value": "$100.00 USD", "label": "Initial Capital" },
+        { "value": "$100,000.00", "label": "Profit Target", "tone": "green" },
+        { "value": "3 Days", "label": "Duration" },
+        { "value": "$85.00 USD", "label": "Copy Trade Fee", "tone": "amber" }
+      ],
+      "note": "14 slots remaining · direct Deriv & Weltrade bridge",
+      "cta": { "label": "Secure Your Challenge Spot ($85.00)", "url": "/challenge" }
+    },
+    {
+      "__typename": "FeatureTrio",
+      "id": "engine-anatomy",
+      "eyebrow": "Inside the engine",
+      "heading": "How a spike is caught before it prints",
+      "text": "Three independent layers run on every tick of your chart: accumulation math, orderbook pressure and variance confirmation.",
+      "features": [
+        {
+          "kicker": "M1 / M5 Clusters",
+          "title": "Pre-spike tick accumulation",
+          "text": "Synthetic indices follow deterministic tick accumulation curves. Our algorithm calculates mathematical exhaustion and triggers sniper entry arrows.",
+          "image": "/images/trading-floor.jpg",
+          "imageAlt": "Institutional MT5 indicator desk"
+        },
+        {
+          "kicker": "0.08 ms Ping",
+          "title": "Direct MT5 bridge execution",
+          "text": "Fires instant audio pings and push notifications directly to your phone or MT5 terminal so you never miss an explosive spike.",
+          "image": "/images/vps-nodes.jpg",
+          "imageAlt": "Low latency VPS server nodes"
+        },
+        {
+          "kicker": "1:4 Risk Reward",
+          "title": "Tight stops & maximum upside",
+          "text": "Strict 8 to 14 tick stop loss protection ensures minimal risk while capturing 80 to 200+ point breakout surges on every signal.",
+          "image": "/images/capital-growth.jpg",
+          "imageAlt": "Verified win rate on live challenge accounts"
+        }
+      ]
+    },
+    {
+      "__typename": "SplitFeature",
+      "id": "synthetics",
+      "eyebrow": "Built for synthetics",
+      "title": "Calibrated for how Deriv and Weltrade actually move",
+      "text": "Most retail tools are tuned for major FX pairs and fall apart on synthetic indices. Every Treads Algo model is fitted against Deriv and Weltrade order flow, with per-broker presets shipped inside the package.",
+      "image": "/images/quant-workflow.jpg",
+      "imageAlt": "Quantitative research workflow on a trading workstation",
+      "bullets": [
+        { "text": "Boom and Crash 1000, 500 and 300 tick-level models" },
+        { "text": "Volatility 75, Step Index and Jump 25 reversal logic" },
+        { "text": "Weltrade Pain X and Gain X exclusive hybrid entries" },
+        { "text": "Per-broker .set presets for SVG, BVI, FX and International servers" }
+      ],
+      "cta": { "label": "Explore Spike Detectors", "url": "/indicators" }
+    },
+    {
+      "__typename": "ValuesModule",
+      "id": "value-pillars",
+      "eyebrow": "Why traders choose Treads Algo",
+      "heading": "Speed, certainty and a frictionless experience",
+      "text": "Four commitments that define every release we ship to the desk.",
+      "values": [
+        {
+          "title": "Instant delivery",
+          "text": "Get your MT5 indicator and license key immediately upon blockchain confirmation. No manual delay.",
+          "icon": "zap"
+        },
+        {
+          "title": "Built for synthetics",
+          "text": "Calibrated strictly for Deriv Boom, Crash, Volatility 75 and Weltrade Pain/Gain order flows.",
+          "icon": "layers"
+        },
+        {
+          "title": "Secure crypto checkout",
+          "text": "Pay with USDT (TRC-20, BEP-20), Bitcoin or Binance Pay. Zero chargeback fees, fully decentralised.",
+          "icon": "shield"
+        },
+        {
+          "title": "Live account tested",
+          "text": "Every algorithm is verified on real-money MT5 accounts with verified investor passwords before release.",
+          "icon": "chart"
+        }
+      ]
+    },
+    {
+      "__typename": "RichTextPageContent",
+      "id": "methodology",
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "content": [
+            {
+              "nodeType": "heading-2",
+              "content": [{ "nodeType": "text", "value": "The maths behind the arrow" }]
+            },
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Boom and Crash indices spike a fixed percentage of ticks on a fixed interval, but the ticks immediately before a spike are not random. They accumulate in a recognisable curve. A cluster accumulator reads that curve in real time and fires the entry arrow when the mathematical exhaustion point is reached — one to three ticks before the explosion prints."
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "content": [{ "nodeType": "text", "value": "Three independent confirmations" }]
+            },
+            {
+              "nodeType": "unordered-list",
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Cluster accumulation (Prime Spike v3.2 AI): models the tick-by-tick accumulation curve and marks mathematical exhaustion."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Variance anomaly (Sigma Nexus Quantum): requires a 3.2-sigma deviation from the rolling mean before an entry is permitted."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Liquidity pressure (NexusPainGain Detector X): reads orderbook imbalance and directional sweeps, exclusive to Weltrade Pain X and Gain X."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "content": [{ "nodeType": "text", "value": "Why it never repaints" }]
+            },
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Every calculation binds to a closed micro-tick. The moment an arrow prints it is written into the chart history permanently, and it can never shift backwards or vanish when the next candle opens. That is not a feature we added — it is a property of how the model is bound to the tick stream."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "Cta",
+      "id": "final-cta",
+      "heading": "Start with the tool that fits your account",
+      "text": "Test every model on the live terminal first, then pick the detector or VIP signal feed that matches how you trade.",
+      "backgroundImage": "/images/signal-room.jpg",
+      "cta": { "label": "Open the Live Terminal", "url": "/terminal" }
+    }
+  ]
+}

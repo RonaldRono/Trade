@@ -1,0 +1,200 @@
+﻿{
+    "slug":  "indicators",
+    "title":  "MT5 Spike Detectors \u0026 Automated EAs | Treads Algo",
+    "description":  "Pick your indicator, pay with crypto (USDT, BTC, Binance Pay), and get instant automatic download access and your hardware license key. Seven battle-tested MT5 spike detectors and expert advisors.",
+    "heroImage":  "/images/hero-liquidity.jpg",
+    "heroImageAlt":  "Spike detection algorithm running on a live MT5 chart",
+    "isExtendedFooterEnabled":  true,
+    "extendedFooterHeading":  "Not sure which model fits your account?",
+    "extendedFooterText":  "Run every detector on the live terminal with real-time cluster simulation, then ask the VIP desk which preset suits your broker server.",
+    "extendedFooterImage":  {
+                                "src":  "/images/hero-terminal.jpg",
+                                "width":  2880,
+                                "height":  1620,
+                                "description":  "Live MT5 terminal simulation"
+                            },
+    "extendedFooterCta":  {
+                              "label":  "Open Live Terminal",
+                              "url":  "/terminal"
+                          },
+    "sections":  [
+                     {
+                         "__typename":  "ProductGrid",
+                         "id":  "catalogue",
+                         "eyebrow":  "Precision Algorithmic Marketplace",
+                         "heading":  "MT5 spike detectors \u0026 automated EAs",
+                         "text":  "Pick your indicator, pay with crypto (USDT, BTC, Binance Pay), and get instant automatic download access and your hardware license key.",
+                         "note":  "Seven tools Â· one-time licence Â· instant automatic delivery",
+                         "products":  [
+                                          {
+                                              "id":  "prime-spike",
+                                              "name":  "Prime Spike v3.2 AI",
+                                              "category":  "Spike Detectors",
+                                              "price":  49.0,
+                                              "winRate":  "95.2%",
+                                              "platform":  "Deriv MT5",
+                                              "badge":  "BESTSELLER",
+                                              "badgeTone":  "accent",
+                                              "description":  "Proprietary micro-tick accumulation detector for Boom 1000, Boom 500, Crash 1000 and Crash 500. Fires non-repainting entry signals 1 to 3 ticks before massive price explosions.",
+                                              "image":  "/images/hero-liquidity.jpg",
+                                              "specs":  [
+                                                            "100% Non-Repainting Calculation Logic",
+                                                            "Instant Audio, Push \u0026 Telegram Alerts",
+                                                            "Tested on Live Deriv MT5 Accounts",
+                                                            "Pre-calibrated presets (.set) for M1 \u0026 M5"
+                                                        ],
+                                              "timeframe":  "M1 / M5"
+                                          },
+                                          {
+                                              "id":  "spike-radar",
+                                              "name":  "Spike Radar Pro HUD",
+                                              "category":  "Spike Detectors",
+                                              "price":  49.0,
+                                              "winRate":  "93.8%",
+                                              "platform":  "Deriv MT5",
+                                              "badge":  "POPULAR",
+                                              "badgeTone":  "green",
+                                              "description":  "Real-time 360-degree visual spike probability radar HUD displayed directly over MT5 chart candles. Monitors volume pressure, spread gaps and exhaustion limits.",
+                                              "image":  "/images/analytics-dashboard.jpg",
+                                              "specs":  [
+                                                            "Visual On-Chart Radar Gauge HUD",
+                                                            "Multi-Timeframe Basket Scanner",
+                                                            "Dynamic Support / Resistance Bands",
+                                                            "Custom Sensitivity Slider (70% - 98%)"
+                                                        ],
+                                              "timeframe":  "M1 / M5 / M15"
+                                          },
+                                          {
+                                              "id":  "blue-guardian",
+                                              "name":  "Blue Guardian 2.0 Max",
+                                              "category":  "Trend Reversals",
+                                              "price":  59.0,
+                                              "winRate":  "94.6%",
+                                              "platform":  "Deriv MT5",
+                                              "badge":  "PROTECTION",
+                                              "badgeTone":  "blue",
+                                              "description":  "Institutional trend reversal detection engine. Identifies peak exhaustion zones and filters out fake-out spikes during dangerous consolidation phases.",
+                                              "image":  "/images/institutional-desk.jpg",
+                                              "specs":  [
+                                                            "Zero-Lag Moving Average Envelope Filter",
+                                                            "Drawdown Protection Alert Module",
+                                                            "Automatic Lot Size Advisor",
+                                                            "Compatible with Volatility 75 \u0026 Step Index"
+                                                        ],
+                                              "timeframe":  "M5 / M15 / H1"
+                                          },
+                                          {
+                                              "id":  "miss-violet",
+                                              "name":  "Miss Violet 2.0 Scalper",
+                                              "category":  "Trend Reversals",
+                                              "price":  59.0,
+                                              "winRate":  "92.4%",
+                                              "platform":  "Deriv MT5",
+                                              "badge":  "SCALPER",
+                                              "badgeTone":  "violet",
+                                              "description":  "Lightning-fast precision scalper specifically tuned for rapid Boom 300 and Crash 300 price action. Designed for traders demanding tight stops with maximum upside.",
+                                              "image":  "/images/hero-mobile.jpg",
+                                              "specs":  [
+                                                            "Ultra-Fast M1 Algorithmic Entry Triggers",
+                                                            "Tight 8-12 Tick Stop Loss Guidance",
+                                                            "Auto-Trailing Stop-Loss Preset Files",
+                                                            "Works seamlessly on VPS setups"
+                                                        ],
+                                              "timeframe":  "M1 Only"
+                                          },
+                                          {
+                                              "id":  "nexus-paingain",
+                                              "name":  "NexusPainGain Detector X",
+                                              "category":  "Weltrade Synthetics",
+                                              "price":  98.35,
+                                              "winRate":  "96.1%",
+                                              "platform":  "Weltrade MT5",
+                                              "badge":  "EXCLUSIVE",
+                                              "badgeTone":  "amber",
+                                              "description":  "Proprietary 3-filter quantitative algorithm designed strictly for Pain X and Gain X synthetics on Weltrade. Analyzes orderbook imbalances and directional liquidity sweeps.",
+                                              "image":  "/images/risk-engine.jpg",
+                                              "specs":  [
+                                                            "Exclusive to Weltrade Pain X / Gain X",
+                                                            "Triple-Filtered Volume Confluence",
+                                                            "Integrated High-Impact News Circuit Breaker",
+                                                            "Dedicated Weltrade Presets Included"
+                                                        ],
+                                              "timeframe":  "M1 / M5"
+                                          },
+                                          {
+                                              "id":  "sigma-nexus",
+                                              "name":  "Sigma Nexus Quantum",
+                                              "category":  "Spike Detectors",
+                                              "price":  85.9,
+                                              "winRate":  "95.8%",
+                                              "platform":  "Deriv MT5",
+                                              "badge":  "PRO QUANT",
+                                              "badgeTone":  "accent",
+                                              "description":  "Mathematical standard-deviation (3.2-sigma) variance detector. Built for prop-traders seeking ultra-high confidence sniper setups with minimum 1:4 risk-reward ratios.",
+                                              "image":  "/images/market-chart.jpg",
+                                              "specs":  [
+                                                            "3-Sigma Variance Anomaly Detector",
+                                                            "Minimum 1:4 Risk-to-Reward Ratio",
+                                                            "Hardware-Locked Anti-Tamper Security",
+                                                            "Verified with $100k Challenge Accounts"
+                                                        ],
+                                              "timeframe":  "M5 / M15"
+                                          },
+                                          {
+                                              "id":  "algo-master-bot",
+                                              "name":  "Ethan Algo Master EA Bot",
+                                              "category":  "Automated Bots (EA)",
+                                              "price":  199.0,
+                                              "winRate":  "97.2%",
+                                              "platform":  "Deriv \u0026 Weltrade MT5",
+                                              "badge":  "FLAGSHIP EA",
+                                              "badgeTone":  "amber",
+                                              "description":  "Fully autonomous Expert Advisor (EA) robot that trades Boom, Crash and Weltrade Synthetics 24/7 without manual intervention. Features automatic compound lot-sizing and drawdown stop-guards.",
+                                              "image":  "/images/vps-nodes.jpg",
+                                              "specs":  [
+                                                            "100% Fully Automated 24/7 Execution",
+                                                            "Built-in Prime Spike + Sigma Nexus Models",
+                                                            "Hard 6% Peak-to-Trough Drawdown Lock",
+                                                            "Includes 1 Year Private VPS Installation"
+                                                        ],
+                                              "timeframe":  "All Timeframes"
+                                          }
+                                      ]
+                     },
+                     {
+                         "__typename":  "ValuesModule",
+                         "id":  "guarantees",
+                         "eyebrow":  "Every purchase includes",
+                         "heading":  "Three guarantees on every licence",
+                         "text":  "Whether you buy a single detector or the flagship EA, the delivery and support terms are identical.",
+                         "values":  [
+                                        {
+                                            "title":  "Instant automatic delivery",
+                                            "text":  "Your compiled .ex5 files, .set presets and licence keys are delivered immediately upon blockchain transaction confirmation.",
+                                            "icon":  "download"
+                                        },
+                                        {
+                                            "title":  "Zero repaint guarantee",
+                                            "text":  "Signals fix permanently on candle close. Our indicators never disappear or shift backward on your MT5 chart history.",
+                                            "icon":  "shield"
+                                        },
+                                        {
+                                            "title":  "Lifetime upgrades \u0026 support",
+                                            "text":  "One single purchase entitles you to all future MT5 version optimisations and direct VIP desk installation assistance.",
+                                            "icon":  "zap"
+                                        }
+                                    ]
+                     },
+                     {
+                         "__typename":  "Cta",
+                         "id":  "signals-cta",
+                         "heading":  "Prefer to have every entry delivered for you?",
+                         "text":  "Join the private Telegram VIP channel and receive 15 to 30 verified spike signals daily with precise entry, stop loss and multi-target take profits.",
+                         "backgroundImage":  "/images/mobile-trading.jpg",
+                         "cta":  {
+                                     "label":  "See VIP Signals",
+                                     "url":  "/signals"
+                                 }
+                     }
+                 ]
+}

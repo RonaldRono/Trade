@@ -1,0 +1,174 @@
+﻿{
+    "slug":  "challenge",
+    "title":  "$100 to $100k Trading Challenge | Treads Algo",
+    "description":  "Grow from 100 USD to 100,000 USD in 3 days. Our automated quantitative trading engine trades your MT5 account synchronously via high-frequency copy trading on Deriv and Weltrade.",
+    "heroImage":  "/images/challenge-room.jpg",
+    "heroImageAlt":  "Institutional prop trading capital desk",
+    "isExtendedFooterEnabled":  true,
+    "extendedFooterHeading":  "Only 14 slots remain on the October round",
+    "extendedFooterText":  "Credentials are encrypted with AES-256 and only loaded into our secure copy-trading node for the duration of the 3-day challenge.",
+    "extendedFooterImage":  {
+                                "src":  "/images/challenge-room.jpg",
+                                "width":  2880,
+                                "height":  1620,
+                                "description":  "Institutional prop trading capital"
+                            },
+    "extendedFooterCta":  {
+                              "label":  "Enrol Now",
+                              "url":  "#enroll"
+                          },
+    "sections":  [
+                     {
+                         "__typename":  "ChallengeBanner",
+                         "id":  "challenge-hero",
+                         "eyebrow":  "Next challenge round â€” Oct 2026",
+                         "heading":  "100 USD to 100k trading challenge",
+                         "text":  "Grow from $100 to $100,000 in 3 days. Our automated quantitative trading engine trades your MT5 account synchronously via high-frequency copy trading.",
+                         "stats":  [
+                                       {
+                                           "value":  "$100.00 USD",
+                                           "label":  "Initial Capital"
+                                       },
+                                       {
+                                           "value":  "$100,000.00",
+                                           "label":  "Profit Target",
+                                           "tone":  "green"
+                                       },
+                                       {
+                                           "value":  "3 Days",
+                                           "label":  "Challenge Duration"
+                                       },
+                                       {
+                                           "value":  "$85.00 USD",
+                                           "label":  "Copy Trade Fee",
+                                           "tone":  "amber"
+                                       }
+                                   ],
+                         "note":  "Slots remaining: 14 / 100 Â· direct Deriv and Weltrade bridge",
+                         "cta":  {
+                                     "label":  "Secure Your Spot ($85.00)",
+                                     "url":  "#enroll"
+                                 }
+                     },
+                     {
+                         "__typename":  "StageTimeline",
+                         "id":  "compounding-stages",
+                         "eyebrow":  "Growth architecture",
+                         "heading":  "3-stage compounding growth architecture",
+                         "text":  "Each day escalates lot sizing only after the previous milestone is locked in, so the drawdown lock never has to rescue the account.",
+                         "stages":  [
+                                        {
+                                            "kicker":  "Stage 01 Â· Day 1",
+                                            "value":  "$100 â†’ $1,000",
+                                            "text":  "Conservative lot scaling on high-frequency Boom 1000 micro-clusters. Focuses on capital preservation and building an initial profit cushion."
+                                        },
+                                        {
+                                            "kicker":  "Stage 02 Â· Day 2",
+                                            "value":  "$1,000 â†’ $10,000",
+                                            "text":  "Compounded lot injection across Boom 500, Crash 1000 and Volatility 75. Trailing stop algorithms lock in accrued profits with zero lag."
+                                        },
+                                        {
+                                            "kicker":  "Stage 03 Â· Day 3",
+                                            "value":  "$10,000 â†’ $100,000",
+                                            "text":  "Full-throttle algorithmic cluster execution on high-conviction Sigma setups. Target milestone reached with an auto-disconnect safety lock.",
+                                            "final":  true
+                                        }
+                                    ]
+                     },
+    {
+      "__typename": "Countdown",
+      "id": "countdown",
+      "label": "Next round starts in",
+      "hours": 38,
+      "slotsRemaining": "Slots remaining: 14 / 100"
+    },
+    {
+      "__typename": "SupportForm",
+      "id": "enroll",
+      "mode": "challenge",
+      "subjects": [
+                                          "Copy Trade Challenge Enrolment",
+                                          "Deriv SVG Server Enrolment",
+                                          "Deriv BVI Server Enrolment",
+                                          "Weltrade Live Enrolment",
+                                          "Broker Bridge Assistance",
+                                          "Drawdown Guard Clarification"
+                                      ]
+                     },
+                     {
+                         "__typename":  "Leaderboard",
+                         "id":  "leaderboard",
+                         "heading":  "Top challenge performers",
+                         "note":  "Round 12 verified",
+                         "entries":  [
+                                         {
+                                             "name":  "Kiprotich M.",
+                                             "country":  "Kenya",
+                                             "broker":  "Deriv (SVG)",
+                                             "balance":  "$34,180.20",
+                                             "roi":  "+34,080%"
+                                         },
+                                         {
+                                             "name":  "David K.",
+                                             "country":  "Nigeria",
+                                             "broker":  "Deriv (BVI)",
+                                             "balance":  "$28,450.00",
+                                             "roi":  "+28,350%"
+                                         },
+                                         {
+                                             "name":  "Lerato T.",
+                                             "country":  "South Africa",
+                                             "broker":  "Weltrade Live",
+                                             "balance":  "$22,900.50",
+                                             "roi":  "+22,800%"
+                                         },
+                                         {
+                                             "name":  "Samuel A.",
+                                             "country":  "Ghana",
+                                             "broker":  "Deriv (International)",
+                                             "balance":  "$18,340.00",
+                                             "roi":  "+18,240%"
+                                         }
+                                     ]
+                     },
+                     {
+                         "__typename":  "Checklist",
+                         "id":  "what-you-need",
+                         "eyebrow":  "Before you enrol",
+                         "heading":  "What you need to join the bridge",
+                         "steps":  [
+                                       {
+                                           "title":  "A Deriv or Weltrade MT5 account",
+                                           "text":  "Live or demo. The bridge supports Deriv International, SVG LLC, BVI Ltd, FX Ltd and Weltrade Live or Demo servers."
+                                       },
+                                       {
+                                           "title":  "Your investor (read-only) password",
+                                           "text":  "The engine trades your account synchronously, so trading permissions are required alongside the investor password."
+                                       },
+                                       {
+                                           "title":  "A funded starting balance",
+                                           "text":  "Exactly $100.00 USD is required for the 100k round. Previous rounds have run from $100 with no drawdown lock breaches."
+                                       },
+                                       {
+                                           "title":  "A stable VPS with 24/7 uptime",
+                                           "text":  "Any Windows VPS with MetaTrader 5 installed is enough. One year of private VPS installation is included with the flagship EA."
+                                       }
+                                   ],
+                         "cta":  {
+                                     "label":  "Enrol for $85.00",
+                                     "url":  "#enroll"
+                                 }
+                     },
+                     {
+                         "__typename":  "Cta",
+                         "id":  "challenge-cta",
+                         "heading":  "Want the tool before the challenge?",
+                         "text":  "Every model used in the challenge ships as a standalone indicator â€” Prime Spike v3.2 AI, Sigma Nexus Quantum and the Ethan Algo Master EA.",
+                         "backgroundImage":  "/images/capital-growth.jpg",
+                         "cta":  {
+                                     "label":  "Browse Spike Detectors",
+                                     "url":  "/indicators"
+                                 }
+                     }
+                 ]
+}

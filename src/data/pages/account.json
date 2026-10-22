@@ -1,0 +1,112 @@
+﻿{
+    "slug":  "account",
+    "title":  "My Account \u0026 License Manager | Treads Algo",
+    "description":  "Manage your hardware-bound MT5 indicator licenses, reset device bindings for VPS migration, and monitor real-time copy trade telemetry.",
+    "heroImage":  "/images/vps-nodes.jpg",
+    "heroImageAlt":  "Hardware node protection and VPS infrastructure",
+    "isExtendedFooterEnabled":  true,
+    "extendedFooterHeading":  "Moving servers?",
+    "extendedFooterText":  "Reset your hardware ID binding in seconds so you can activate the same licence on a new VPS or MT5 workstation.",
+    "extendedFooterImage":  {
+                                "src":  "/images/vps-nodes.jpg",
+                                "width":  2880,
+                                "height":  1620,
+                                "description":  "Hardware node protection"
+                            },
+    "extendedFooterCta":  {
+                              "label":  "Contact VIP Desk",
+                              "url":  "/contact"
+                          },
+    "sections":  [
+                     {
+                         "__typename":  "LicenseManager",
+                         "id":  "licenses",
+                         "licenses":  [
+                                          {
+                                              "name":  "Prime Spike v3.2 AI",
+                                              "key":  "EGS-8492-X901-PRO",
+                                              "status":  "ACTIVATED",
+                                              "hwid":  "Bound (Win64 HWID-89301)"
+                                          },
+                                          {
+                                              "name":  "Spike Radar Pro HUD",
+                                              "key":  "EGS-3109-R440-RAD",
+                                              "status":  "ACTIVATED",
+                                              "hwid":  "Bound (Win64 HWID-89301)"
+                                          }
+                                      ]
+                     },
+                     {
+                         "__typename":  "StatGrid",
+                         "id":  "copy-telemetry",
+                         "eyebrow":  "Challenge copy telemetry",
+                         "heading":  "Connected bridge status",
+                         "text":  "Live telemetry from the copy-trading node currently executing against your MT5 account.",
+                         "stats":  [
+                                       {
+                                           "value":  "10849201",
+                                           "label":  "Connected MT5 Login",
+                                           "detail":  "DerivSVG server Â· Direct VPS bridge.",
+                                           "tone":  "accent"
+                                       },
+                                       {
+                                           "value":  "$1,482.50",
+                                           "label":  "Account Equity",
+                                           "detail":  "Live balance plus floating profit on the connected account.",
+                                           "tone":  "green"
+                                       },
+                                       {
+                                           "value":  "+$382.50",
+                                           "label":  "Floating Profit (+26.5%)",
+                                           "detail":  "One active position: BOOM 1000 Buy.",
+                                           "tone":  "amber"
+                                       },
+                                       {
+                                           "value":  "12ms",
+                                           "label":  "Bridge Latency",
+                                           "detail":  "Direct VPS routing with a hard 6% maximum peak equity drawdown guard.",
+                                           "tone":  "violet"
+                                       }
+                                   ]
+                     },
+                     {
+                         "__typename":  "Checklist",
+                         "id":  "setup-checklist",
+                         "eyebrow":  "MT5 setup checklist",
+                         "heading":  "Four steps from download to first arrow",
+                         "steps":  [
+                                       {
+                                           "title":  "Open MT5 data folder",
+                                           "text":  "Click File â†’ Open Data Folder â†’ MQL5 â†’ Indicators."
+                                       },
+                                       {
+                                           "title":  "Paste the .ex5 files",
+                                           "text":  "Paste downloaded .ex5 files and preset .set templates into the correct folders."
+                                       },
+                                       {
+                                           "title":  "Enable DLL imports",
+                                           "text":  "In MT5 go to Tools â†’ Options â†’ Expert Advisors and check \u0027Allow DLL imports\u0027."
+                                       },
+                                       {
+                                           "title":  "Attach and enter your key",
+                                           "text":  "Attach to a Boom or Crash M1 chart, paste your licence key, and watch the sniper arrows fire."
+                                       }
+                                   ],
+                         "cta":  {
+                                     "label":  "Download PDF Manual \u0026 Presets",
+                                     "url":  "#licenses"
+                                 }
+                     },
+                     {
+                         "__typename":  "Cta",
+                         "id":  "account-cta",
+                         "heading":  "Need another licence?",
+                         "text":  "Seven models cover spike detection, trend reversals, Weltrade synthetics and fully automated execution â€” all delivered instantly.",
+                         "backgroundImage":  "/images/analytics-dashboard.jpg",
+                         "cta":  {
+                                     "label":  "Browse Spike Detectors",
+                                     "url":  "/indicators"
+                                 }
+                     }
+                 ]
+}
